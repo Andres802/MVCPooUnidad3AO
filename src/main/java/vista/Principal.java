@@ -15,7 +15,7 @@ public class Principal {
 
     public static void main(String[] args) {
 
-        var ventana0301a = new JFrame();
+        /* var ventana0301a = new JFrame();
         ventana0301a.setTitle("Ventana Unidad 03.01a");
         ventana0301a.setSize(500, 500);
         ventana0301a.setLocation(200, 100);
@@ -39,5 +39,14 @@ public class Principal {
         ventana0301d.setLocation(500, 400);
         ventana0301d.setVisible(true);
         ventana0301d.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    }
+    }*/
+        
+        var ventana1 = new Ventana0301a("Ecuador");
+       ventana1.iniciarComponente();
+        
+        ventana1.setVisible(true);
+       
+        
+        
+    }     
 }
